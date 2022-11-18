@@ -18,7 +18,7 @@ p{ font-size: 1.25em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
-button{
+button.alo{
     font-size: 1.25em;
     font-weight: bold;
     padding: 10px 30px;
@@ -29,7 +29,7 @@ button{
     background-color: blueviolet;
 }
 
-button:hover{
+button.alo:hover{
     background-color: rgb(101, 33, 165);
 }
 
@@ -89,7 +89,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/hero.jpg");
+    ,url("media/app.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -141,7 +141,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("media/dh.png");
 
 }
 
@@ -251,7 +251,7 @@ footer .container{
     }
 
     #somos-proya .img-container{
-        background-image: url("media/somos-proya.jpg");
+        background-image: url("media/dh.png");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -291,7 +291,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/front-end-cropped.jpg");
+        ,url("media/persiana.jpg");
 
     }
 
@@ -301,7 +301,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/full-stack-cropped.jpg");
+        ,url("media/papelera.jpg");
     }
 
     .carta:nth-child(3){
@@ -310,25 +310,18 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("media/dispensador.jpg");
 
     }
-
-    #caracteristicas{
-        background-image: url("media/background-2.jpeg");
-        background-repeat: no-repeat;
-        background-size: 500px 400px;
-        background-position: calc(100vw - 500px) 120px;
+    
+    .carta:nth-child(4){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/cerradura.jpg");
     }
-
-    #caracteristicas .container{
-        text-align: initial;
-    }
-
-    #caracteristicas ul{
-        margin-left: 100px;
-    }
-
     #final h2{
         font-size: 5em;
     }
@@ -346,4 +339,10 @@ footer .container{
     #caracteristicas{
         background-position-x: calc(100vw - 800px);
     }
+}
+#centrar{
+    text-align: center;
+}
+#imagenes{
+    text-align: center;
 }

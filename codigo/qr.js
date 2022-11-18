@@ -1,5 +1,9 @@
-qr = document.getElementById("boton")
+qr = document.getElementById("qr")
+boton = document.getElementById("boton")
 
 qr.addEventListener("click",function(){
-    alert("hola")
+    agrego =`
+   <img src="media/qr.png">
+    `
+    boton.innerHTML = agrego
 })

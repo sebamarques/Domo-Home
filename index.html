@@ -11,15 +11,16 @@
             <nav>
                 <a href="#somos-proya">Quienes Somos</a>
                 <a href="#nuestros-programas">Nuestros Productos</a>
-                <a href="#caracteristicas">Ayuda</a>
-                <a href="#caracteristicas">Redes</a>
+                <a href="#caracteristicas">App-Movil</a>
+                <a href="#final">Creadores</a>
             </nav>
         </div>
     </header>
 
     <section id="hero">
-        <h1>Aprendé a usar y descargá<br>la app movil</h1>
-        <a href="app.html"><button id="app">DESCARGAR</button></a>
+        <h1>Nuestra<br>App-Movil</h1>
+        <button id="qr" class="alo">ESCANEA EL QR</button></a>
+        <div id="boton"></div>
     </section>
 
     <section id="somos-proya">
@@ -29,6 +30,7 @@
 
                 <h2>Somos <span class="color-acento">DomoHome</span></h2>
                 <p>Empresa dedicada a la Domotica</p>
+                <p>Nuestra meta es conseguir crear los productos mas practicos y faciles de usar para personas de todas las edades</p>
             </div>
         </div>
     </section>
@@ -38,30 +40,40 @@
             <h2>Nuestros Productos</h2>
             <div class="programas">
                 <div class="carta">
-                    <h3>Persiana</h3>
+                    <h3>Persiana</h3><br>
                     <p>Sus funciones te permiten abrirlas y cerrarlas con dos botones o automatizarlas para que se abra y se cierre a la hora que tu decidas</p>
-                    <a href="persiana.html"><button>+ Info</button></a>
+                    <a href="persiana.html"><button class="alo">+ Info</button></a>
                 </div>
                 <div class="carta">
-                    <h3>Papelera</h3>
-                    <p>Funciona por proximidad, cuando entres en su rango de accionar esta se abrira.Funciona tambien con la aplicacion movil</p>
-                    <a href="papelera.html"><button>+ Info</button></a>
+                    <h3>Papelera</h3><br>
+                    <p>Funciona por proximidad, cuando entres en su rango de accion esta se abrira.Tiene su apartado en la app-movil</p>
+                    <a href="papelera.html"><button class="alo">+ Info</button></a>
                 </div>
                 <div class="carta">
                     <h3>Dispensador de comida</h3>
                     <p>Se le asigna hora tanto de dia como de noche mediante la app movil y cuando llegue el momento alimentara a tu mascota</p>
-                    <a href="dispensador.html"><button>+ Info</button></a>
+                    <a href="dispensador.html"><button class="alo">+ Info</button></a>
                 </div>
                 <div class="carta">
-                    <h3>Cerradura</h3>
-                    <p>Teclado y pantalla oled que le permite ingresar a su casa o visualizar lo que esta escribiendo, ademas cuenta con un apartado en la app-movil para abrir y cerrar su puerta con 2 botones</p>
-                    <a href="cerradura.html"><button>+ Info</button></a>
+                    <h3>Cerradura</h3><br>
+                    <p>Cerradura electronica que le permite ingresar a su casa, teclado y pantalla para visualizar lo que esta escribiendo, ademas cuenta con un apartado en la app-movil para abrir y cerrar su puerta con 2 botones</p>
+                    <a href="cerradura.html"><button class="alo">+ Info</button></a>
                 </div>    
             </div>
         </div>
     </section>
-
     <section id="caracteristicas">
+        <div id ="centrar">
+            <h2>Manual instrucciones app-movil</h2>
+        <button id="persiana"class="alo">Persiana</button>
+        <button id="tacho"class="alo">Tacho</button>
+        <button id="dispensador"class="alo">Dispensador</button> 
+        <button id="cerradura"class="alo">Cerradura</button>
+        </div>
+        <div id="guardar"></div>
+    </section>
+
+    <section id="final">
         <div class="container">
             <ul>
                 <li>Sebastián Márquez</li>
@@ -71,13 +83,10 @@
         </div>
     </section>
 
-    <section id="final">
-        
-    </section>
-
     <footer>
         
     </footer>
     <script src="codigo/codigo.js"></script>
+    <script src="codigo/qr.js"></script>
 </body>
 </html>
