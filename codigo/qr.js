@@ -3,7 +3,7 @@ boton = document.getElementById("boton")
 
 qr.addEventListener("click",function(){
     agrego =`
-   <img src="media/qr.png">
+   <img src="media/qr final.png">
     `
     boton.innerHTML = agrego
 })
